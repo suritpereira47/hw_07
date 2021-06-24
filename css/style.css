@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+            padding: 15px 0;
+}
+.container{
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+      width: 19%;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+      width: 78%;
+      float: right;
+      padding: 7px 0; 
+}
+.menu ul{
+	    float: inherit;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 0 10px;
+	display: inline-block;
+	color:#535d67;
+}
+.menu ul li a:hover{
+      color:#bf1f3d;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+} 
+
+/*header end*/
+/*banner start*/
+.banner{
+      background-image: url(../images/banner.jpg) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center;
+}
+.b_content{
+	margin-top: 90px;
+	margin-bottom: 90px;
+	width: 50%;
+	/*border: 1px solid red;*/
+
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size:51px ;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 1px;
+	margin-top: 0 ;
+      margin-bottom: 25px;
+
+}
+.b_content p{
+		font-family: sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: white;
+		margin-top: 0;
+		margin-bottom: 13px;
+
+
+
+
+}
+.b_content button{
+	width: 260px;
+	height: 40px;
+	background-color: #bf1f3d;
+	color: white;
+      font-family: sans-serif;
+      border: none;
+      font-size:16px ;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-top: 21px;
+      cursor: pointer;
+}
+button:hover{
+	color: black;
+
+}
+
+/*banner end*/
+
